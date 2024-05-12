@@ -45,6 +45,26 @@ a{
     font-family: var(--secondary-font);
 }
 
+.second-btn{
+    padding: 12px 32px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    border: 1px;
+    color: var(--white-color);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.75s;
+    font-weight: 500;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.second-btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -63,6 +83,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .navbar .nav-logo{
@@ -157,6 +179,18 @@ a{
     border: 1px solid var(--gray-color);
     border-radius: 8px;
     font-family: var(--secondary-font);
+}
+
+.service .card-section .card .rating{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+}
+.service .card-section .card .rating img{
+    max-width: 18px;
+    height: 18px;
+    margin-right: 4px;
 }
 
 .service .card-section .card img{
