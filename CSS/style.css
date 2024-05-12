@@ -112,7 +112,7 @@ a{
 .hero-section{
     width: 100%;
     height: 512px;
-    background-image: url('/images/hero-banner.jpg');
+    background-image: url('../images/hero-banner.jpg');
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
